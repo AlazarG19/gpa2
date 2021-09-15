@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <script src="script.js"></script>
+    <script defer src="script2.js"></script>
+</head>
+
+<body class="light">
+    <nav class="navbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">Home</li>
+            <li class="nav-item">About</li>
+            <!-- Drop down menu-->
+            <li class="navitem has-dropdown"> 
+                <a href="#">Theme</a>
+                <ul class="dropdown">
+                    <li class="dropdown-item">
+                        <a href="#" id="light">Light</a>
+                    </li>
+                    <li class="dropdown-item">
+                        <a href="#" id="dark"> Dark</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item">Login</li>
+        </ul>
+    </nav>
+    <header>
+        <img src="logos/lion.png" class="logo">
+        <h1>
+            Second Year CSE Department 
+            <br>
+            Result Calculator
+        </h1>
+        <p>system is the elective</p>
+    </header>
+    <main>
+        <div class="buttons">
+            <button id="mark" class="mark">Mark</button>
+            <button id="grade" class="grade">Grade</button>
+        </div>
+        <div class="main_container">
+            <div class="container">
+                <div class="discrete">
+                    <div class="discrete_label">Discrete Mathematics</div>
+                </div>
+                <div class="digital">
+                    <div class="digital_label">Digital Logic Design</div>
+                </div>
+                <div class="object">
+
+                    <div class="object_label">Object Oriented Programming</div>
+                </div>
+                <div class="system">
+                    <div class="system_label">System Programming</div>
+                </div>
+                <div class="database">
+                    <div class="database_label">Database </div>
+                </div>
+            </div>
+            <div class="container2">
+                <input type="number" class="discrete_input mark_input" />
+                <input type="number" class="digital_input mark_input">
+                <input type="number" class="object_input mark_input">
+                <input type="number" class="system_input mark_input">
+                <input type="number" class="database_input mark_input">
+            </div>
+            <div class="container3">
+                <select name="choices" class="grade_choices discrete_choices">
+                    <option disabled selected value></option>
+                    <option value="4">A+</option>
+                    <option value="4">A</option>
+                    <option value="3.75">A-</option>
+                    <option value="3.5">B+</option>
+                    <option value="3">B</option>
+                    <option value="2.75">B-</option>
+                    <option value="2.5">C+</option>
+                    <option value="2">C</option>
+                    <option value="1.75">C-</option>
+                    <option value="1">D</option>
+                    <option value="1">F</option>
+                </select>
+                <select name="choices" class="grade_choices digital_choices">
+                    <option disabled selected value></option>
+                    <option value="4">A+</option>
+                    <option value="4">A</option>
+                    <option value="3.75">A-</option>
+                    <option value="3.5">B+</option>
+                    <option value="3">B</option>
+                    <option value="2.75">B-</option>
+                    <option value="2.5">C+</option>
+                    <option value="2">C</option>
+                    <option value="1.75">C-</option>
+                    <option value="1">D</option>
+                    <option value="1">F</option>
+                </select>
+                <select name="choices" class="grade_choices object_choices">
+                    <option disabled selected value></option>
+                    <option value="4">A+</option>
+                    <option value="4">A</option>
+                    <option value="3.75">A-</option>
+                    <option value="3.5">B+</option>
+                    <option value="3">B</option>
+                    <option value="2.75">B-</option>
+                    <option value="2.5">C+</option>
+                    <option value="2">C</option>
+                    <option value="1.75">C-</option>
+                    <option value="1">D</option>
+                    <option value="1">F</option>
+                </select>
+                <select name="choices" class="grade_choices system_choices">
+                    <option disabled selected value></option>
+                    <option value="4">A+</option>
+                    <option value="4">A</option>
+                    <option value="3.75">A-</option>
+                    <option value="3.5">B+</option>
+                    <option value="3">B</option>
+                    <option value="2.75">B-</option>
+                    <option value="2.5">C+</option>
+                    <option value="2">C</option>
+                    <option value="1.75">C-</option>
+                    <option value="1">D</option>
+                    <option value="1">F</option>
+                </select>
+                <select name="choices" class="grade_choices database_choices">
+                    <option disabled selected value></option>
+                    <option value="4">A+</option>
+                    <option value="4">A</option>
+                    <option value="3.75">A-</option>
+                    <option value="3.5">B+</option>
+                    <option value="3">B</option>
+                    <option value="2.75">B-</option>
+                    <option value="2.5">C+</option>
+                    <option value="2">C</option>
+                    <option value="1.75">C-</option>
+                    <option value="1">D</option>
+                    <option value="1">F</option>
+                </select>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
